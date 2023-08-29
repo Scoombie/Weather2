@@ -29,3 +29,25 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.overview {
+  margin-bottom: 20px;
+}
+strong {
+  font-size: xx-large;
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+}
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+span {
+  position: relative;
+  font-size: 12px;
+  bottom: -10px;
+}
