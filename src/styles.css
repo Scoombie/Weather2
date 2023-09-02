@@ -46,9 +46,18 @@ strong {
   height: 64px;
   width: 64px;
 }
-.degree {
+.degrees {
   position: relative;
   font-size: 12px;
   bottom: -10px;
   font-weight: bolder;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+#celsius-link {
+  text-decoration: none;
 }
