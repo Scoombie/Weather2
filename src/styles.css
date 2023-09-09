@@ -7,10 +7,10 @@ body {
   font-family: "Roboto Mono", monospace;
   font-family: "Rubik", sans-serif;
 
-  background: linear-gradient(
-    178.1deg,
-    rgb(60, 55, 106) 8.5%,
-    rgb(60, 55, 106) 82.4%
+  background: radial-gradient(
+    905px at 4.9% 85.8%,
+    rgb(255, 243, 242) 0.1%,
+    rgb(255, 247, 220) 57.6%
   );
 }
 
@@ -18,11 +18,11 @@ body {
   max-width: 600px;
   margin: 30px 0 auto;
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 4px solid;
+  border-radius: 10px;
 }
 h1 {
-  color: #878787;
+  color: black;
   font-size: 24px;
   font-weight: 100px;
   line-height: 28px;
@@ -36,7 +36,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: black;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -95,8 +95,15 @@ strong {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: black;
 }
 
 .cold {
   float: right;
+}
+small {
+  color: black;
+}
+.links {
+  color: white;
 }
