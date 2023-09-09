@@ -86,7 +86,7 @@ strong {
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  color: black;
 }
 
 .weather-forecast-temperature-min {
@@ -95,7 +95,6 @@ strong {
 
 .weather-forecast-temperatures {
   font-size: 13px;
-  color: black;
 }
 
 .cold {
