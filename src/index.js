@@ -115,27 +115,7 @@ function displayFahrenheitTemperature(event) {
   temperatureElement.innerHTML = Math.round(fahrenheiTemperature);
 }
 
-function displayCelsiusTemperature(event) {
-  event.preventDefault();
-  celsiusLink.classList.add("active");
-  fahrenheitLink.classList.remove("active");
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-}
-
-let celsiusTemperature = null;
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-if (fahrenheitLink) {
-  fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-}
-console.log(fahrenheitLink);
-
-let celsiusLink = document.querySelector("#celsius-link");
-console.log(celsiusLink);
-celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Sydney");

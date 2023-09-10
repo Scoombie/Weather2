@@ -63,7 +63,7 @@ strong {
 }
 .degrees {
   position: relative;
-  font-size: 12px;
+  font-size: 15px;
   bottom: -10px;
   font-weight: bolder;
   text-decoration: none;
@@ -87,7 +87,7 @@ strong {
 }
 
 .weather-forecast-date {
-  font-size: 25px;
+  font-size: 18px;
   color: black;
 }
 
@@ -101,15 +101,13 @@ strong {
 
 .cold {
   float: right;
+  position: absolute;
+  top: 2px;
 }
+
 small {
   color: black;
 }
 .links {
   color: white;
-}
-
-.cold {
-  position: absolute;
-  top: 2px;
 }
